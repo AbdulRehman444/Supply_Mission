@@ -42,14 +42,15 @@ function setup() {
   ground = Bodies.rectangle(width / 2, 650, width, 10, options);
   World.add(world, ground);
 
+ 
   LeftBox = createSprite(300, 610, 20, 100);
-  LeftBox.shapeColor = color(255, 0, 0);
+  LeftBox.shapeColor = color("yellowGreen");
 
   CenterBox = createSprite(400, 650, 200, 20);
-  CenterBox.shapeColor = color(255, 0, 0);
+  CenterBox.shapeColor = color("yellowGreen");
 
   RightBox = createSprite(500, 610, 20, 100);
-  RightBox.shapeColor = color(255, 0, 0);
+  RightBox.shapeColor = color("yellowGreen");
 
   Engine.run(engine);
 }
