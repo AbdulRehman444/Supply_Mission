@@ -42,7 +42,6 @@ function setup() {
   ground = Bodies.rectangle(width / 2, 650, width, 10, options);
   World.add(world, ground);
 
- 
   LeftBox = createSprite(300, 610, 20, 100);
   LeftBox.shapeColor = color("yellowGreen");
 
